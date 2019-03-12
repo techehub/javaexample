@@ -1,6 +1,6 @@
 package abstractclass;
 
-abstract public class Benz extends Car {
+abstract public class Benz implements Car {
 
 
 }

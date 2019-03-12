@@ -2,11 +2,11 @@ package abstractclass;
 
 public class AltoK10 extends Alto{
 
-    void start(){
+    public void start(){
         System.out.println("Alto K10 started !!!!");
     }
 
-    void stop (){
+    public void stop (){
         System.out.println("Alto K10 stoped !!!!");
     }
 

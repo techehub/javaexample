@@ -3,16 +3,16 @@ package abstractclass;
 public class BenzGLA extends Benz {
 
 
-    void start() {
+    public void start() {
             System.out.println("Benz GLA started !!!!");
     }
 
-    void stop() {
+    public void stop() {
 
             System.out.println("Benz  GLA stop !!!!");
     }
 
-    void accelerate() {
+    public void accelerate() {
 
             System.out.println("Benz  GLA accelarate !!!!");
     }

@@ -1,8 +1,8 @@
 package abstractclass;
 
-abstract public class Car {
+ public interface Car {
 
-    abstract void start();
-    abstract void stop();
-    abstract void accelerate();
+     void start();
+     void stop();
+     void accelerate();
 }

@@ -1,8 +1,8 @@
 package abstractclass;
 
-abstract public class Alto extends Car{
+abstract public class Alto implements Car{
 
-     void accelerate(){
+     public void accelerate(){
          System.out.println("Alto  acclerated !!!!");
      }
 
